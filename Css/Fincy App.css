@@ -105,10 +105,15 @@ div ul li a{
 }
 
 .data {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px;
+    position: absolute;
     display: flex;
     max-width: 500px;
     align-items: center;
     padding: 5px 30px;
+    top: 510px;
 }
 
 .data h5 {
@@ -159,7 +164,7 @@ div ul li a{
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 1382px;
+    max-width: 90.05%;
     height: 500px;
     padding: 1% 5%;
     border-bottom-left-radius: 50px;
@@ -179,6 +184,7 @@ div ul li a{
 .firstP {
     color: white;
     font-size: 20px;
+    line-height: 25px;
 }
 
 .firstP button {
@@ -194,5 +200,11 @@ div ul li a{
 }
 
 #img1 {
-    width: 100%;
+    margin-top: -250px;
+    margin-left: -50px;
+    width: 130%;
+}
+
+.need {
+    position: relative;
 }
